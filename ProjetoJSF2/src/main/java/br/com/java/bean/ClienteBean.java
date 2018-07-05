@@ -17,7 +17,7 @@ public class ClienteBean {
 	
 	@PostConstruct
 	public void init() {
-		
+		v
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> init()");
 		
 	}
