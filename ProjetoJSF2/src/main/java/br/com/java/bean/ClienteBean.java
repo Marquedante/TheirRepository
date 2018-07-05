@@ -15,7 +15,7 @@ public class ClienteBean {
 		System.out.println("----------------------------------- ClienteBean()");
 	}
 	
-	@PostConstruct 
+	@PostConstruct
 	public void init() { System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> init()"); }
 
 	public String getNome() {
