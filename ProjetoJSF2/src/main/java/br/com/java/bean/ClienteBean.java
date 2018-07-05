@@ -13,15 +13,19 @@ public class ClienteBean {
 	private Integer idade;
 
 	public ClienteBean() { 
-		System.out.println(">>> >>> >>> ClienteBean()");
+		
+		System.out.println(">>>>>> ClienteBean()");
+		
 	}
 	
 	@PostConstruct
 	public void init() { 
-	   System.out.println(">>> >>> >>> init()"); 
+	   System.out.println(">>>>>> init()"); 
 	}
 
-	public String getNome() { return nome; }
+	public String getNome() { 
+		return nome; 
+	}
 
 	public void setNome(String nome) { this.nome = nome; }
 
