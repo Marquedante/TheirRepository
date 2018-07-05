@@ -4,7 +4,7 @@ import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-@ManagedBean(name="clienteBean")////////////////////////////
+@ManagedBean(name="clienteBean")
 @RequestScoped
 public class ClienteBean {
 	
@@ -16,7 +16,9 @@ public class ClienteBean {
 	}
 	
 	@PostConstruct
-	public void init() { System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> init()"); }
+	public void init() { 
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> init()"); 
+	}
 
 	public String getNome() {
 		return nome;
@@ -28,5 +30,8 @@ public class ClienteBean {
 
 	public Integer getIdade() { return idade; }
 
-	public void setIdade(Integer idade) { this.idade = idade; }
+	public void setIdade(Integer idade) {
+		this.idade = idade; 
+	}
+	
 }
