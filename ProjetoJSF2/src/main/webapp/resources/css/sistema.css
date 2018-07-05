@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body {
+	
+	font-size: 12px;
+	font-family:  Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-weight: normal;
+	
+}
+
+/* referente a faixa que aparece no topo com o log algaWorks */ 
+header { 
+
+	padding: 5px 0px; /* espacamento interno do topo/base e laterais respectivamente perceba que o logo esta sendo empurrado para o centro*/
+	margin-bottom: 20px; /* distancia entre a faixa e corpo da pagina*/
+	height: 30px; /* largura da faixa*/
+	
+	background-color: #005E2F; /* cor de fundo da faixa */
+	color: #fff; /* cor da fonte */
+	
+	box-shadow: 0px 2px 2px #ccc; /* sombra distancia do header laterais */
+	
+}
+
+header > div {
+	
+	margin-left: 18px
+	
+}
+
+/* referencia um id de um elemento */
+#conteudo {
+	
+	padding: 0px 8px /* 0px  espacamento interno do topo/base e 8px laterais */
+	
+} 
+
+footer {
+	
+	padding: 0px 8px; /* 0px  espacamento interno do topo/base e 8px laterais */
+	margin-bottom: 10px; /* distancia da base da pagina*/
+	
+}
+
+h1 {
+	
+	font-size: 24px;
+	font-weight: 500;
+	padding: 0px;
+	margin: 0px;
+}
+
+#login-dialog {
+	
+	width: 290px; /* largura da caixa de login */
+	margin: auto; /* todas as margens serao calculadas automaticamente */
+	margin-top: 150px; /* distancia da caixa de login para o topo da pagina */
+			
+}
+
+.grid-login {
+	 
+	background-color: yellow; /* fundo da caixa de login */
+	border-radius: 8px; /* borda arredondada */
+	border: 1px solid #ccc; /* espessura da borda - solida - sombra da borda inferior cinza */
+	margin-top: 8px; /* distancia entre a caixa e o titulo Login */
+	padding: 10px; /* distancia entre o conteudo da caixa de login e as boradas da caixa de login */
+	
+}
+
+.rotulo {
+	
+	width: 150px; /* largura dos componentes de um panelgrid */
+	
+}
+
+.ui-panelgrid td {     /* customizando um objeto da classe ('ui-panelgrid') css do primefaces 'ui-panelgrid td'. 
+                          É possivel encontrar a classe css pelo navegador Desenvolvedor > Ferramentas de Desenvolvimento
+                       */
+	
+	height: 34px
+	
+}
+
+.ajax-status {
+	
+	position: fixed;
+	top: 55px;
+	right: 10px;
+	width: 35px;
+	height: 35px;
+	
+}
+
+.ui-selectmanycheckbox td {
+	
+	border-width: 0px !important;
+	padding: 0px !important;
+	
+}
+
+.ui-selectmanycheckbox td label {
+	
+	padding-right: 30px !important;
+	
+}
+
+/*ESTA CLASSE CSS NAO FUNCIONOU NO COMPONENTE AUTO-COMPLETE DA PAGINA ItensPedido.xhtml*/
+.produto-tabela input { 
+	
+	width: 99%;
+}
+
+/* Customiza TabView - fim */
+/*ESTA CLASSE CSS NAO FUNCIONOU NO COMPONENTE AUTO-COMPLETE DA PAGINA ItensPedido.xhtml*/
+
+/* Menu sistema inicio */
+.menu-sistema {
+    border: 0px !important;
+    padding: 0px !important;
+    background: none !important;
+}
+/*ESTA CLASSE CSS NAO FUNCIONOU NO COMPONENTE AUTO-COMPLETE DA PAGINA ItensPedido.xhtml*/
+.menu-sistema .ui-menu-parent > a .ui-menuitem-text, .menu-sistema > .ui-menu-list > .ui-menuitem > a > .ui-menuitem-text {
+    color: #ffffff !important;
+}
+/*ESTA CLASSE CSS NAO FUNCIONOU NO COMPONENTE AUTO-COMPLETE DA PAGINA ItensPedido.xhtml*/
+.menu-sistema .ui-icon-triangle-1-s {
+    background: url(#{resource['image:seta-para-baixo.png']}) no-repeat;
+}
+/* Menu sistema fim */
+
+
