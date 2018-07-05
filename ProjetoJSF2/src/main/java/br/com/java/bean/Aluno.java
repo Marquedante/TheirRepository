@@ -1,18 +1,18 @@
 package br.com.java.bean;
 
-public class Aluno { // classe Aluno
+public class Aluno { // classe Aluno.java
 
 	private String nome;
-
-	public Aluno(){
+	
+	public Aluno(String nome){//construtor cpm parametros
+	   this.nome = nome;
+	}
+	
+	public Aluno(){//construtor sem parametros
 	}
 
-	public String getNome() {
-		return nome;
-	}
+	public String getNome() { return nome; }
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+	public void setNome(String nome) { this.nome = nome; }
 	
 }
