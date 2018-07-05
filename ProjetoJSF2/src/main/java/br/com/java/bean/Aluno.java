@@ -7,7 +7,7 @@ public class Aluno { // classe Aluno.java
 	
 	public Aluno(String nome, String codigo){//construtor cpm parametros
 	   this.nome = nome;
-	   this.codogo = codigo;
+	   this.codigo = codigo;
 	}
 	
 	public Aluno(){//construtor sem parametros
