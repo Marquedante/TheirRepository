@@ -4,11 +4,14 @@ public class Aluno { // classe Aluno.java
 
 	private String nome;
 	
-	public Aluno(String nome){//construtor cpm parametros
+	public Aluno(String nome){//construtor com parametros 
+		
 	   this.nome = nome;
+	   
 	}
 	
 	public Aluno(){//construtor sem parametros
+		
 	}
 
 	public String getNome() { return nome; }
